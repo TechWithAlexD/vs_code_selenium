@@ -4,6 +4,11 @@ using OpenQA.Selenium.Chrome;
 
 namespace selenium_tests;
 
+//
+// Summary:
+//      Provides Selenium first test
+// Run:
+//      dotnet test .\bin\Debug\net8.0\selenium_tests.dll --filter TestCategory="Selenium"
 public class SeleniumTests
 {
     [Test]

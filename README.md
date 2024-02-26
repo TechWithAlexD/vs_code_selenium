@@ -1,5 +1,9 @@
 # vs_code_selenium
-Tutorials and sample web automtion tests using VS Code and Selenium
+Tutorials and sample web automation tests using VS Code and Selenium
+- C# Selenium project
 
-# Please check my YouTube channel for detailed tutorials on automation and more
-https://www.youtube.com/@TechWithAlexD
+## YT channel
+Please check my YouTube channel for step by step implementation or detailed tutorials on automation and more: https://www.youtube.com/@TechWithAlexDuta
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
