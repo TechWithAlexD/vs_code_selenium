@@ -1,6 +1,7 @@
 # vs_code_selenium
 Tutorials and sample web automation tests using VS Code and Selenium
 - C# Selenium project
+- Python Selenium project
 
 ## YT channel
 Please check my YouTube channel for step by step implementation or detailed tutorials on automation and more: https://www.youtube.com/@TechWithAlexDuta
