@@ -7,10 +7,10 @@ dependencies = [
 ]
 requires-python = ">=3.12"
 authors = [
-  {name = "Alex"}
+  {name = "Alex Duta"}
 ]
 maintainers = [
-  {name = "Alex"}
+  {name = "Alex Duta"}
 ]
 description = "Learn Selenium with Python"
 readme = "README.md"
