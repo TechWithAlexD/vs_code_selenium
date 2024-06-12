@@ -1,5 +1,5 @@
 # vs_code_selenium
-Tutorials and sample web automation tests using VS Code and Selenium
+Tutorials and sample web automation tests using VS Code
 - C# Selenium project
 - Python Selenium project
 
