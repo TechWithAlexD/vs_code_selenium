@@ -25,8 +25,9 @@ Tutorials and sample web automation tests project using VS Code, Playwright and 
 
 ## Tech
 - python 3.12
-- selenium 1.46
+- pytest-playwright 1.46
 - pytest 8
+- pytest-xdist 3.6
 
 ## YT channel
 Please check my YouTube channel for step by step implementation or detailed tutorials on automation and more: https://www.youtube.com/@TechWithAlexDuta
