@@ -1,0 +1,28 @@
+[project]
+name = "playwright_pytest"
+version = "1.0.0"
+dependencies = [
+  "pytest",
+  "pytest-playwright",
+  "pytest-xdist",
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Alex"},
+]
+maintainers = [
+  {name = "Alex"},
+]
+description = "Learn Playwright with Python"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+YouTube = "https://www.youtube.com/@TechWithAlexDuta"
+Repository = "https://github.com/TechWithAlexDuta/vs_code_automation.git"
+
+[tool.pytest.ini_options]
+addopts = "--browser firefox --browser chromium --headed --slowmo 1000"
+markers=[
+    "regression"
+]

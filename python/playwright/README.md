@@ -2,13 +2,20 @@
 Tutorials and sample web automation tests project using VS Code, Playwright and Python
 
 ## Installation
-1. Make sure you have [.Python 3](https://www.python.org/downloads/) or newer installed on your machine (project was developed using python 3.12). Check installation
+1. Make sure you have [Python 3.12](https://www.python.org/downloads/) or newer installed on your machine (project was developed using python 3.12). Check installation
     ```PS
     python -V
     ```
-2. Install playwright and the browsers as described here: https://youtu.be/NSF8Dn-oP38?feature=shared
-3. Clone this repository to your local machine.
-4. Open folder (`vs_code_automation\python\playwright`) in VS Code. 
+2. Clone this repository to your local machine.
+3. Open folder (`vs_code_automation\python\playwright`) in VS Code. 
+4. Install playwright and the browsers as described here: https://youtu.be/NSF8Dn-oP38?feature=shared or run the following commands:
+    ```PS
+    pip install -r .\requirements.txt
+    ```
+    for browsers:
+    ```PS
+    playwright install
+    ```
 
 ## Usage
 1. Open the project directory in VS Code or your preferred IDE. 
@@ -21,6 +28,8 @@ Tutorials and sample web automation tests project using VS Code, Playwright and 
     pytest test_playwright.py --headed --browser-channel msedge --headed
     pytest test_playwright.py --headed --browser-channel chrome --headed
     pytest --headed --browser firefox --browser webkit --browser chromium --numprocesses 3
+    pytest test_playwright.py --headed --browser firefox --slowmo 1000
+    pytest test_playwright.py --headed --slowmo 1000 --device="Galaxy S5"
     ```
 
 ## Tech
